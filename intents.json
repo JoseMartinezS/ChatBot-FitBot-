@@ -1,0 +1,240 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hola",
+                "buenos días",
+                "buenas tardes"
+            ],
+            "responses": [
+                "¡Hola! ¿Cómo puedo ayudarte hoy?",
+                "Hola, ¿qué tal?"
+            ]
+        },
+        {
+            "tag": "definicion_geometrica",
+            "patterns": [
+                "qué es un círculo?",
+                "definición de círculo"
+            ],
+            "responses": [
+                "Un círculo es una figura geométrica formada por todos los puntos de un plano que están a una distancia fija de un punto llamado centro."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adiós",
+                "hasta luego",
+                "nos vemos"
+            ],
+            "responses": [
+                "¡Adiós! Que tengas un buen día.",
+                "Hasta luego, ¡cuídate!"
+            ]
+        },
+        {
+            "tag": "greeting_2",
+            "patterns": [
+                "Hola",
+                "Buenos días",
+                "¿Qué tal?",
+                "¿Cómo estás?"
+            ],
+            "responses": [
+                "¡Hola! ¿Cómo puedo ayudarte?",
+                "¡Hola! ¿Qué tal?",
+                "¡Hola! ¿En qué puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "definicion_geometrica",
+            "patterns": [
+                "¿Qué es un círculo?"
+            ],
+            "responses": [
+                "Un círculo es una figura geométrica formada por todos los puntos de un plano que están a una distancia fija de un punto llamado centro."
+            ]
+        },
+        {
+            "tag": "inteligencia_artificial",
+            "patterns": [
+                "¿Qué es la inteligencia artificial?"
+            ],
+            "responses": [
+                "La inteligencia artificial es una rama de la informática que se ocupa de crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana."
+            ]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": [
+                "ayudame"
+            ],
+            "responses": [
+                "Lo siento, no estoy seguro de cómo responder a eso. ¿Puedes preguntar de otra manera?"
+            ]
+        },
+        {
+            "tag": "como_te_llamas",
+            "patterns": [
+                "como te llamas?",
+                "como te llamas"
+            ],
+            "responses": [
+                "Me llamo TutorIA"
+            ]
+        },
+        {
+            "tag": "estado",
+            "patterns": [
+                "como estas?"
+            ],
+            "responses": [
+                "bien, y tu?"
+            ]
+        },
+        {
+            "tag": "suma",
+            "patterns": [
+                "cuanto es 5 mas 3?"
+                
+            ],
+            "responses": [
+                "La suma de 5 + 3 es 8."
+            ]
+        },
+        {
+            "tag": "resta",
+            "patterns": [
+                "cuánto es 10 menos 4?",
+                "qué es 20 - 5?",
+                "cuál es la resta de 30 menos 12?"
+            ],
+            "responses": [
+                "10 menos 4 es igual a 6.",
+                "20 - 5 es igual a 15.",
+                "La resta de 30 menos 12 es 18."
+            ]
+        },
+        {
+            "tag": "multiplicacion",
+            "patterns": [
+                "cuánto es 6 por 7?",
+                "qué es 9 x 8?",
+                "cuál es el resultado de 4 multiplicado por 5?"
+            ],
+            "responses": [
+                "6 por 7 es igual a 42.",
+                "9 x 8 es igual a 72.",
+                "El resultado de 4 multiplicado por 5 es 20."
+            ]
+        },
+        {
+            "tag": "division",
+            "patterns": [
+                "cuánto es 56 dividido entre 7?",
+                "qué es 48 dividido entre 6?",
+                "cuál es el resultado de 100 dividido por 25?"
+            ],
+            "responses": [
+                "56 dividido entre 7 es igual a 8.",
+                "48 dividido entre 6 es igual a 8.",
+                "El resultado de 100 dividido por 25 es 4."
+            ]
+        },
+        {
+            "tag": "teorema_pitagoras",
+            "patterns": [
+                "qué es el teorema de Pitágoras?",
+                "explica el teorema de Pitágoras",
+                "cómo funciona el teorema de Pitágoras?"
+            ],
+            "responses": [
+                "El teorema de Pitágoras establece que en un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.",
+                "El teorema de Pitágoras se expresa como: a² + b² = c², donde a y b son los catetos y c es la hipotenusa."
+            ]
+        },
+        {
+            "tag": "area_circulo",
+            "patterns": [
+                "cuál es la fórmula para el área de un círculo?",
+                "cómo se calcula el área de un círculo?",
+                "qué es el área de un círculo?"
+            ],
+            "responses": [
+                "El área de un círculo se calcula usando la fórmula A = π * r², donde r es el radio del círculo.",
+                "Para calcular el área de un círculo, se usa la fórmula A = π * r², donde π es aproximadamente 3.14159."
+            ]
+        },
+        {
+            "tag": "area_rectangulo",
+            "patterns": [
+                "cuál es la fórmula para el área de un rectángulo?",
+                "cómo se calcula el área de un rectángulo?",
+                "qué es el área de un rectángulo?"
+            ],
+            "responses": [
+                "El área de un rectángulo se calcula con la fórmula A = l * a, donde l es la longitud y a es el ancho.",
+                "Para calcular el área de un rectángulo, multiplica la longitud por el ancho: A = l * a."
+            ]
+        },
+        {
+            "tag": "volumen_cubo",
+            "patterns": [
+                "cuál es la fórmula para el volumen de un cubo?",
+                "cómo se calcula el volumen de un cubo?",
+                "qué es el volumen de un cubo?"
+            ],
+            "responses": [
+                "El volumen de un cubo se calcula con la fórmula V = a³, donde a es la longitud de un lado del cubo.",
+                "Para calcular el volumen de un cubo, se usa la fórmula V = a³, donde a es el lado del cubo."
+            ]
+        },
+        {
+            "tag": "sistema_ecuaciones",
+            "patterns": [
+                "cómo resuelvo un sistema de ecuaciones?",
+                "qué es un sistema de ecuaciones?",
+                "cómo se resuelve el sistema de ecuaciones 2x + y = 10 y x - y = 2?"
+            ],
+            "responses": [
+                "Un sistema de ecuaciones es un conjunto de dos o más ecuaciones con las mismas variables. Se puede resolver por sustitución, igualación o eliminación.",
+                "Para resolver el sistema de ecuaciones 2x + y = 10 y x - y = 2, puedes usar el método de sustitución o eliminación."
+            ]
+        },
+        {
+            "tag": "derivada",
+            "patterns": [
+                "qué es una derivada?",
+                "qué significa derivar?",
+                "cómo se calcula la derivada de f(x) = x²?"
+            ],
+            "responses": [
+                "Una derivada es una medida del cambio de una función en relación con sus variables. Representa la pendiente de la recta tangente a la curva.",
+                "La derivada de f(x) = x² es f'(x) = 2x."
+            ]
+        },
+        {
+            "tag": "integral",
+            "patterns": [
+                "qué es una integral?",
+                "cómo se calcula la integral de f(x) = x?",
+                "qué significa integrar?"
+            ],
+            "responses": [
+                "Una integral es una operación matemática que calcula el área bajo una curva. Es lo opuesto a la derivada.",
+                "La integral de f(x) = x es ∫f(x) dx = (x²)/2 + C."
+            ]
+        },
+        {
+            "tag": "cuanto es5 mas 3",
+            "patterns": [
+                "cuanto es5 mas 3"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}
